@@ -1,0 +1,112 @@
+.CodeMirror {
+    height: 500px;
+}
+
+.CodeMirror-hscrollbar {
+    display: none !important;
+}
+
+.right .github-fork-ribbon {
+    background-color: #29357F;
+}
+
+
+.output, .clear-console {
+    float:left;
+}
+.clear-console  {
+    margin-left: 12px;
+}
+.top-nav {
+    background: #53506b;
+    height:15px;
+}
+
+.col-md-6:last-of-type {
+    border-left: 1px solid #999;
+    min-height: 42em;
+}
+
+.page-header {
+    margin-bottom: 0;
+    padding-bottom: 30px;
+}
+
+.row {
+    background: #282a36;
+}
+
+.panel-primary {
+    border-color:#282a36;
+    box-shadow: none;
+}
+.panel-primary > .panel-heading,
+.panel-default>.panel-heading {
+    background-color: #282a36;
+    border-color: #282a36;
+    background-image: none;
+    color:#fff;
+}
+
+.panel {
+    background-color: #282a36;
+}
+
+
+
+.eval, .source-map, .console-log {
+    background-color: #282a36;
+    color: #fff;
+    border:none;
+}
+
+.console-log {
+    color:#888;
+}
+
+
+.error {
+    background: #282a36;
+}
+
+button.btn.btn-danger {
+    background-color: #bf0000;
+    background-image: none;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top {
+    background-color: #282a36;
+    background-image: none;
+}
+
+.error span.cm-variable {
+    color: red;
+}
+
+.error span.cm-string {
+    color: red;
+}
+
+.error span.cm-number {
+    color: red;
+}
+
+.error span.cm-operator {
+    color: red;
+}
+
+.error span.cm-property {
+    color: red;
+}
+
+.error span.cm-keyword {
+    color: red;
+}
+
+.navbar-brand {
+  color: #53506b;
+}
+
+.btn.btn-link.btn-xs.clear-console {
+    color: #939294;
+}

@@ -1,16 +1,22 @@
 # ramtuary
-Ramda + Ramda Fantasy + Sanctuary REPL
+JavaScript functional REPL
 
-This is basically a clone of the [ramda repl](https://github.com/ramda/ramda.github.io/tree/master/repl) with a new skin.
+[![builtwith](https://img.shields.io/badge/built--with-rollup-e94c43.svg?style=flat-square)](http://rollupjs.org)
+[![builtwith](https://img.shields.io/badge/es6--with-bublé-0074D9.svg?style=flat-square)](http://buble.surge.sh/#)
+[![builtwith](https://img.shields.io/badge/repl--with-codemirror-d30707.svg?style=flat-square)](https://codemirror.net)
 
-With some additions of [ramda fantasy](https://github.com/ramda/ramda-fantasy) and [sanctuary](https://github.com/plaid/sanctuary) for moar fun.
+## Usage
+This REPL includes different libraries such as
 
-## usage
+- [Ramda](https://github.com/ramda/ramda) - available with prefix `R` or without
+- [Sanctuary](https://github.com/sanctuary-js/sanctuary) - available with prefix `S`
+- [Ramda Fantasy](https://github.com/ramda/ramda-fantasy) - available `Either, Future, Identity, IO, Maybe, Reader, Tuple `
+- [Tcomb](https://github.com/gcanti/tcomb) - available as `tcomb`
 
-The following variables are available globally:
+## Todo
+- [ ] Add examples
+- [ ] Add info for available libraries
 
-`R` for Ramda
+### Please note
+If you are looking for the original REPL, it is now part of Ramda REPL [here](http://ramdajs.com/repl/)
 
-`S` for Sanctuary
-
-`Either, Future, Identity, IO, Maybe, Reader, Tuple`  for Ramda Fantasy
