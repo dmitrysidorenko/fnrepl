@@ -10,6 +10,8 @@
 
     <title>Ramtuary REPL</title>
 
+    <link rel="manifest" href="/manifest.json">
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
 
@@ -60,13 +62,13 @@
 
 <div class="col-lg-12 theme-showcase">
 
-<div class="row">
+<div class="row no-gutters">
     <div class="col-md-6">
         <div class="panel panel-primary">
             <div class="panel-heading">
                 <h3 class="panel-title">Input</h3>
             </div>
-            <div class="panel-body">
+            <div>
                 <textarea class="input" rows="80" cols="50"></textarea>
             </div>
         </div>
@@ -77,7 +79,7 @@
                 <h3 class="panel-title output">Output</h3>
                 <button class="btn btn-link btn-xs clear-console" type="button">Clear Output</button>
             </div>
-            <div class="panel-body yield">
+            <div class="yield">
                 <textarea class="results" rows="80" cols="50"></textarea>
                 <pre class="error"></pre>
                 <pre class="console-log"></pre>
@@ -102,5 +104,6 @@
 
 <script src="lib/js/main.js"></script>
 <script src="lib/js/bundle.js"></script>
+<script src="lib/js/offline-manager.js"></script>
 </body>
 </html>
