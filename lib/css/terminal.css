@@ -42,6 +42,7 @@
 }
 .panel-primary > .panel-heading,
 .panel-default>.panel-heading {
+    overflow: hidden;
     background-color: #282a36;
     border-color: #282a36;
     background-image: none;
