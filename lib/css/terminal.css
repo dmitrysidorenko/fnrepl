@@ -27,6 +27,13 @@
     min-height: 42em;
 }
 
+@media (min-width: 768px){
+    .col-md-6:last-of-type {
+        border-left: none;
+        min-height: 42em;
+    }
+}
+
 .page-header {
     margin-bottom: 0;
     padding-bottom: 30px;
