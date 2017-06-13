@@ -27,10 +27,10 @@
     min-height: 42em;
 }
 
-@media (min-width: 768px){
+@media (max-width: 992px){
     .col-md-6:last-of-type {
         border-left: none;
-        min-height: 42em;
+        border-top: 1px solid #999;
     }
 }
 
